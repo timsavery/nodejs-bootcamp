@@ -1,14 +1,13 @@
-# Session #2 - Modules
+# Session #3 - Events & Streams
 
 ## The lecture portion of this session will cover:
 
-1. Intro to modules
-1. How to write modules
-1. [NPM (Node Package Manager)](http://npmjs.org)
-1. How to consume modules
+1. Intro to events and EventEmitter
+1. Intro to streams
+1. Why streams?
+1. The workshop portion of this session will cover:
 
-## The workshop portion of this session will cover:
+## Handling and emitting events
 
-1. Writing your first module
-1. Installing modules with [NPM](http://npmjs.org)
-1. Modules and inheritance
+1. Writing your own proxy server
+1. Writing your own music server
