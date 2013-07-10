@@ -1,15 +1,15 @@
 var util = require('util'),
-		events = require('events');
+    events = require('events');
 
 /*
  * Create a class that inherits from EventEmitter
  */
 function MyEmitter() {
-	events.EventEmitter.apply(this);
+  events.EventEmitter.apply(this);
 
-	this.emitSomething = function() {
-		emitter.emit('some_event', 'any data', 'that goes along with it');
-	};
+  this.emitSomething = function() {
+    emitter.emit('some_event', 'any data', 'that goes along with it');
+  };
 }
 
 util.inherits(MyEmitter, events.EventEmitter);
