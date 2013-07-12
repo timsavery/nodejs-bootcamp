@@ -7,13 +7,13 @@ http.createServer(function (req, res) {
   switch (path) {
     case '/block': {
       var startTime = new Date().getTime();
-      while (new Date().getTime() - startTime < 10000);
+      while (new Date().getTime() - startTime < 5000);
 
-      return res.end('I just blocked the entire server!');
+      return res.end('I just blocked the entire server!\n');
     }
 
     case '/': {
-      return res.end('Hello!');
+      return res.end('Hello!\n');
     }
   }
 }).listen(8080);
